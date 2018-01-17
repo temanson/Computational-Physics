@@ -1,3 +1,3 @@
 # Sandbox
 
-Just a physics student learning to code
+Working through Kaggle Data Science Projects based mostly in R. 
