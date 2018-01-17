@@ -12,3 +12,19 @@ test <- read.csv(test_url)
 # Print train and test to the console
 train
 test
+
+# Your train and test set are still loaded
+str(train)
+str(test)
+
+# Survival rates in absolute numbers
+table(train$Survived)
+
+# As proportions
+prop.table(table(train$Survived))
+  
+# Two-way comparison: Sex and Survived
+table(train$Sex, train$Survived)
+
+# Two-way comparison: row-wise proportions
+prop.table(table(train$Sex, train$Survived), 1)
