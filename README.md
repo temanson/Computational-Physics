@@ -1,3 +1,3 @@
-# Sandbox
+# Computational Physics
 
-Working through Kaggle Data Science Projects based mostly in R. 
+Matlab based computational physics
